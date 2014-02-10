@@ -12,6 +12,9 @@ public class Bateau {
 	private List<Marin> equipage;
 	
 	
+    private long id;
+	
+	
 	
 	public Bateau(){
 		
@@ -44,5 +47,17 @@ public class Bateau {
 
 	public void setEquipage(List<Marin> equipage) {
 		this.equipage = equipage;
+	}
+
+
+
+	public long getId() {
+		return id;
+	}
+
+
+
+	public void setId(long id) {
+		this.id = id;
 	}
 }
